@@ -35,6 +35,7 @@
     
     a {
         color: #2b4450;
+        font-size: 15pt;
     }
 
 
@@ -127,11 +128,15 @@
     background-color: #f78536;
     color: #dfebed;
     overflow: hidden;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-content: center;
     list-style-type: none;
     margin: auto;
     padding: 10px;
+  }
+
+  .nav-links {
+      padding: 8px;
   }
 
 

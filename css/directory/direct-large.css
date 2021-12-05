@@ -1,0 +1,28 @@
+@media only screen and (min-width: 1000px) {
+
+
+
+    img {
+        width: 298px; 
+        height: 250px;
+      }
+
+.card {
+    display: block;
+    color: #dfebed;
+    background-color: #2b4450;
+    text-align: center;
+    width: 300px; 
+    border-radius: 10px;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  width: 75%;
+  margin-left: 13%;
+  margin-right: 15%;
+
+}
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/join/join-small.css">
+    <link rel="stylesheet" href="../css/join/join-med.css">
+    <link rel="stylesheet" href="../css/join/join-large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <title>join</title>
+</head>
+
+
+<body>
+    <header class="index-head">
+        <h1>Idaho Falls Chamber of Commerce</h1>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()" class="nav-button">&#9776; Menu</button>
+        <ul class="nav-list">
+            <li class="nav-links"><a href="../index.html">Home</a></li>
+            <li class="nav-links"><a href="../html/city.html">City</a></li>
+            <li class="nav-links"><a href="../html/directory.html">Directory</a></li>
+            <li class="nav-links"><a class="active" href="../html/join.html">Join</a></li>
+            <li class="nav-links"><a href="../html/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h2>Join the Chamber of Commerce</h2>
+
+            <form method="GET" action="thanks.html">
+            <fieldset>
+                <legend>Please Enter Your Business Information</legend>
+                <div class="info">
+                    <label for="fname">First Name: </label>
+                    <input type="text" id="fname" name="fname" required>
+                </div>
+                <div class="info">
+                    <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname" required>
+                </div>
+                <div class="info">
+                    <label for="title">Title:</label>
+                        <input type="text" id="title" name="title">
+                </div>
+                <div class="info">
+                    <label for="email">Email Address: </label>
+                        <input type="email" id="email" name="email" placeholder="name@gmail.com">
+                </div>
+                <div class="info">
+                    <label for="tel">Phone Number: </label>
+                        <input type="tel" id="tel" name="tel" placeholder="123-456-7890">
+                </div>
+                <div class="info">
+                    <label for="bname">Name of Business: </label>
+                        <input type="text" id="bname" name="bname" required>
+                </div>
+                <div class="info">
+                    <label for="baddress">Business Address: </label>
+                        <input type="text" id="baddress" name="baddress">
+                </div>
+                <div class="info">
+                    <label for="website">Business Website:</label>
+                        <input type="text" id="website" name="website">
+                </div>
+                <div class="info">
+                    <label for="desc">Business Description:</label>
+                        <input type="text" id="desc" name="desc">
+                </div>
+                <div class="info">        
+                    <label for="membership_type">Membership Level: </label>
+                    <input list="membership_selection" id="membership_type" name="membership_type">
+                        <datalist id="membership_selection">
+                            <option value="Non-Profit $100"></option>
+                            <option value="Bronze $200"></option>
+                            <option value="Silver $400"></option>
+                            <option value="Gold $1000"></option>
+                            
+                        </datalist>
+                </div> 
+
+
+            </fieldset>
+            <input type="submit" class="submit" value="Submit your Application">
+            </form>
+
+       
+        
+    </main>
+    <footer class="index-footer">
+        <div>
+            <p>&copy; 2021 Cool Breeze | Justin Staker | Last Updated: <span id="dateLastModified"></span></p>
+            
+        </div>
+
+    </footer>
+
+    <script src="../js/chamber.js"></script>  
+    <noscript> For full functionality of this site it is necessary to enable 
+        JavaScript. Here are the <a href="https://www.enable-javascript.com/"
+        >instructions how to enable JavaScript in your web browser</a>.</noscript>  
+</body>
+
+
+</html>

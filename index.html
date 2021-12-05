@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index/index-small.css">
+    <link rel="stylesheet" href="css/index/index-medium.css">
+    <link rel="stylesheet" href="css/index/index-large.css">
+    <link rel="stylesheet" href="css/index/index-huge.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <title>index</title>
+</head>
+
+
+<body>
+    <header class="index-head">
+        <h1>Idaho Falls Chamber of Commerce</h1>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()" class="nav-button">&#9776; Menu</button>
+        <ul class="nav-list">
+            <li class="nav-links"><a class="active" href="">Home</a></li>
+            <li class="nav-links"><a href="html/city.html">City</a></li>
+            <li class="nav-links"><a href="html/directory.html">Directory</a></li>
+            <li class="nav-links"><a href="html/join.html">Join</a></li>
+            <li class="nav-links"><a href="html/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="intro">
+           
+            <p class="intro-p">Welcome to the Idaho Falls Chamber of Commerce. Our purpose is to create a strong network of businesses within our community.
+            The Chamber of Commerce consists of hundreds of businesses in southeastern idaho. From small family owned businesses to large corporations, our 
+            organization conncets the community and strengthens the local economy.
+            </p>
+            <img id="banner" src="media/perfect.jpeg" alt="greenbelt">
+        </div>
+
+        
+
+        <div class="adverts">
+            <h2 style="font-size: 30px;">Check out these Local Businesses!</h2>
+            <div class="advert-container">
+            <picture>
+                <img id="local-biz" src="media/meuseum.jpeg" alt="biz-1">
+                <figcaption><a href="https://museumofidaho.org/">Museum of Idaho</a></figcaption>
+            </picture>
+
+            <picture>
+                <img id="local-biz" src="media/ijump.jpeg" alt="biz-2">
+                <figcaption><a href="https://www.ijumpidaho.com/?gclid=Cj0KCQiA15yNBhDTARIsAGnwe0Wn5LORDhxNqRM3fuGTtyBkuUM0hYkGNN6Mbjo1UvWdG1oRyJkbyDQaAgIjEALw_wcB">iJump</a></figcaption>
+            </picture>
+
+            <picture>
+                <img id="local-biz" src="media/eicu.jpeg" alt="biz-3">
+                <figcaption><a href="https://eastidahocu.org/">East Idaho Credit Union</a></figcaption>
+            </picture>
+            </div>
+        </div>
+
+
+        <div class="event-container">
+        <section class="events">
+            <h2 style="font-size: 28px;">Upcoming Events</h2>
+            <article class="event-block">
+                <img src="media/parade.jpg" alt="parade" id="event">
+                <div class="data">On December 15th there will be Christmas
+                    parade at Freeman Park sponsered by local doctor's offices.
+                     All are welcome to attend. To register a 
+                    float or vehicle please call Janet Smith at 208.867.5309. During 
+                    the parade local Doctors will be collecting donations to go 
+                    towards getting Christmas presents for families who are in need.
+                </div>
+            </article>
+            <article class="event-block">
+                <img src="media/tree.jpeg" alt="christmas tree" id="event">
+                <div class="data">
+                    On December 24th a Christmas Tree lighting will take place at
+                    McCowin Park. It will be sponsered by some of our local banks!
+                    Over 30 very large trees will be lit up to bring in Christmas to
+                    southeastern Idaho. Lighting will start at 6:00pm. Hot chocolate
+                    will be served.
+                </div>
+            </article>
+            <article class="event-block">
+                <img src="media/newyear.jpeg" alt="New Years Party" id="new-family">
+                <div class="data">
+                    Help us bring in the new year by celebrating 2022 with us at
+                    the Civic Auditorium. There will be several live performaces by
+                    local bands and a surpise keynote speaker! This event is sponsered 
+                    by local insurance compaines. Tickets are on sale now starting at $12.
+                </div>
+            </article>
+
+        </section>
+    </div>
+
+        <div class="weather-container">
+        <h2 style="font-size: 20px; color: #2b4450;">Current Weather in Idaho Falls</h2>
+        <section class="weather">
+            <p class="weather-objects"><span id="desc"></span></p>
+            <p class="weather-objects">currently: <span id="current"></span>&deg;F</p>
+            <p class="weather-objects">humidity: <span id="humidity"></span>%</p>
+        </section>
+        </div>
+
+
+        <div class="action">
+            <h2 class="start">Starting a new business or new in town?</h2>
+            <h3 class="join">Join the Chamber of Commerce</h3>
+            <p class="why-join">By joining the chamber your business becomes a member of the 
+                largest network of business in the area. It isn't just a 
+                business decision, it's also a chance to join the community.
+            </p>
+            <button type="button" style="margin-bottom: 10px;"><a href="html/join.html">Join the Chamber</a></button>
+        </div>
+
+        <div class="social">
+            <h2 style="text-decoration: underline; margin-top: 0px; color: #dfebed;">Contact Information</h2>
+            <ul class="contact-list"> 
+                <li>Phone: 208.523.1010</li>
+                <li>email: ifchamberofcommerce@gmail.com</li>
+                <li>365 River Parkway Idaho Falls, ID 83402</li>
+                <li><a href="https://www.facebook.com/idahofallschamber/"><img src="media/facebook.jpeg" alt="fb-logo" id="social-logo"></a></li>
+                <li><a href="https://twitter.com/ifchamber"><img src="media/twitter.png" alt="twitter-logo" id="social-logo"></a></li>
+                <li><a href="#"><img src="media/linkedin.png" alt="linkedin-logo" id="social-logo"></a></li>
+            </ul>
+        </div>
+    </main>
+
+    <footer class="index-footer">
+        <div>
+            <p>&copy; 2021 Cool Breeze | Justin Staker | Last Updated: <span id="dateLastModified"></span></p>
+            
+        </div>
+
+    </footer>
+
+    <script src="js/chamber.js"></script>
+    <noscript> For full functionality of this site it is necessary to enable 
+        JavaScript. Here are the <a href="https://www.enable-javascript.com/"
+        >instructions how to enable JavaScript in your web browser</a>.</noscript>  
+</body>
+
+
+</html>

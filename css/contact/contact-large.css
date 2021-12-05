@@ -1,0 +1,15 @@
+@media only screen and (min-width: 1000px) {
+
+
+    iframe {
+        width: 600px;
+        height: 400px;
+    }
+
+
+    #img-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}

@@ -98,6 +98,10 @@
         height: 25px;
     }
 
+    input {
+        padding: 5.5px;
+    }
+
 
 
     /*classes and id's*/

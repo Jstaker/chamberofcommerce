@@ -29,4 +29,20 @@
     .nav-button {
         display: none   ;
     }
+
+
+    .about-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #img-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+
+
+
     }

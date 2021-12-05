@@ -1,0 +1,152 @@
+@media only screen and (min-width: 250px) {
+
+    body {
+        font-family: 'Fjalla One', sans-serif;
+        background-color: #dfebed;
+        color: #2b4450;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    
+    h1 {
+        text-align: center;
+        margin: 0%;
+        padding: 15px;
+    }
+    
+    h2, h3 {
+        text-align: center;
+        color: #2b4450;
+    }
+
+   
+    
+    header {
+        background-color: #2b4450;
+        color: #dfebed;
+    }
+
+    
+    
+    nav {
+        background-color: #f78536;
+    }
+    
+    a {
+        color: #2b4450;
+    }
+
+
+    section {
+        max-width: 600px;
+        margin: .5rem auto;
+        border:1px solid black;
+        background-color: #dfebed;
+        width: 75%;
+      }
+      
+      img {
+        width: 198px; 
+        height: 150px;
+      }
+    
+    
+    footer {
+        background-color: #2b4450;
+        color: #dfebed;
+        padding: 10px;
+        margin: auto;
+    }
+
+
+    form {
+        background-color: #2b4450;
+        padding: 10px;
+        color: #dfebed;
+        width: 75%;
+        text-align: center;
+        font-size: 15pt;
+         border-radius: 10px;
+         margin-left: 13%;
+         margin-right: 15%;
+         margin-bottom: 70px;
+    }
+
+    
+
+    legend {
+        padding: 15px;
+    }
+
+    fieldset {
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    span {
+        padding: 5px;
+    }
+
+    
+
+    figcaption {
+        color: #2b4450;
+        background-color: #dfebed;
+        width: 425px;
+        height: 25px;
+    }
+
+
+
+    /*classes and id's*/
+
+.nav-list {
+    display: none;
+}
+
+.nav-button {
+    display: block;
+        width: 100%;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #f78536;
+        color: #dfebed;
+        border-radius: 5px;
+}
+
+
+.responsive {
+    display: grid;
+    background-color: #f78536;
+    color: #dfebed;
+    overflow: hidden;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    list-style-type: none;
+    margin: auto;
+    padding: 10px;
+  }
+
+
+
+
+
+.active {
+    background-color: #dfebed;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.info {
+    padding: 15px;
+}
+
+
+
+
+  
+
+}

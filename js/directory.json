@@ -1,0 +1,65 @@
+{
+    "directory": [
+        
+
+
+        {
+            "name": "Chesbro",
+            "image": "../media/chesbro.png",
+            "category": "Music Store",
+            "yearFounded": 1911,
+            "link": "https://www.chesbroretail.com/"
+        },
+
+        {
+            "name": "Idaho Mountain Trading",
+            "image": "../media/mtn-trade.jpeg",
+            "category": "Outdoors/Sport Store",
+            "yearFounded": 1977,
+            "link": "https://www.idahomountaintrading.com/"
+
+        },
+
+        {
+            "name": "Snake Bite Restaurant",
+            "image": "../media/snake-bite.jpeg",
+            "category": "Restaurant",
+            "yearFounded": 1994,
+            "link": "https://www.snakebiterestaurant.com/menu"
+        },
+
+        {
+            "name": "Melaleuca",
+            "image": "../media/melaleuca.jpeg",
+            "category": "Wellness Company",
+            "yearFounded": 1985,
+            "link": "https://www.melaleuca.com/"
+        },
+
+        {
+            "name": "Family First Medical",
+            "image": "../media/medical.jpeg",
+            "category": "Medical Center",
+            "yearFounded": 2002,
+            "link": "https://www.familyfirstif.com/"
+        },
+
+        {
+            "name": "Idaho Falls Chukars",
+            "image": "../media/chukars.png",
+            "category": "Minor League Baseball Team",
+            "yearFounded": 1940,
+            "link": "https://www.milb.com/idaho-falls"
+        },
+
+        {
+            "name": "Pinecrest Golf Course",
+            "image": "../media/pinecrest.jpg",
+            "category": "Golf Course",
+            "yearFounded": 1938,
+            "link": "https://golfif.com/pinecrest-golf-course/"
+        }
+    ]
+}
+
+

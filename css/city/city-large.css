@@ -3,12 +3,12 @@
 
 
 
-    picture {
+    .picture {
         border: #1a2639;
         border-style: solid;
     }
     
-    picture:hover{
+    .picture:hover{
         box-shadow: 0 0 50px #333;
     }
     

@@ -2,5 +2,39 @@
 
 
 
+
+
+    .advert-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+ .event-container {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 25px;
+     margin-left: 10%;
+ }   
+
+
+
+
+
+ article {
+     width: 500px;
+ }
+
+
+ img {
+     height: 250px;
+     width: 100%;
+     text-align: center;
+ }
+
+ p {
+     width: 100%;
+ }
+
+    
     
 }

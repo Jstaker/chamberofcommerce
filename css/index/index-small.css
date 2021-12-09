@@ -41,19 +41,21 @@
         padding: 10px;
         margin: auto;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+    article {
+        border-style: solid;
+        border-radius: 10px;
+        width: 300px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
     
     /*classes and id's*/
     
@@ -113,32 +115,11 @@
     
     #local-biz {
         height: 175px;
-        width: 275px;
+        width: 300px;
     }
     
     
-    .event-container {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-    
-    .events {
-        width: 100%;
-        border:1px solid black;
-        color: #2b4450;
-        text-align: center;
-        margin-top: 60px;
-        margin-bottom: 60px;
-    }
-    
-    #event {
-        width: 70%px;
-        height: 200px;
-    }
-    
-    #new-family {
-        width: 200px;
-    }
+
     
     
     .action {
@@ -185,8 +166,18 @@
         border-style: solid;
         
     }
+
+    .weather {
+        background-color: #dfebed;
+        width: 100%;
+    }
     
     
+
+    .event-container {
+        margin-bottom: 60px;
+        
+    }
     
     
     }

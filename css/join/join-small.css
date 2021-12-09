@@ -25,6 +25,7 @@
     header {
         background-color: #2b4450;
         color: #dfebed;
+        display: flex;
     }
 
     
@@ -106,6 +107,11 @@
 
 
     /*classes and id's*/
+
+    .logo {
+        width: 220px;
+        height: 100px;
+    }
 
 .nav-list {
     display: none;

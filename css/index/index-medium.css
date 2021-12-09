@@ -75,7 +75,7 @@
     justify-content: center;
 }
 
-#local-biz {
+.local-biz {
     height: 310px;
     width: 400px;
     border-radius: 10px;
